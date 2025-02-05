@@ -1,0 +1,19 @@
+name: Lock Issues
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+permissions:
+  issues: "write"
+
+jobs:
+  lock:
+    if: github.repository_owner == 'pyca'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: dessant/lock-threads@e460dfeb36e731f3aeb214be6b0c9a9d9a67eda6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-inactive-days: 90
+          pr-inactive-days: 90
