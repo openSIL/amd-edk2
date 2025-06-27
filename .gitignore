@@ -11,3 +11,9 @@ MdeModulePkg/Bus/Usb/UsbMassStorageDxe/UsbMassImpl.c
 MdeModulePkg/Bus/Usb/UsbMassStorageDxe/UsbMassImpl.c.back
 MdePkg/Library/SmmPciExpressLib/SmmPciExpressLib.inf
 MdePkg/Library/SmmPciExpressLib/SmmPciExpressLib.inf.back
+MdeModulePkg/Bus/Usb/UsbMassStorageDxe/UsbMassBot.h
+MdeModulePkg/Bus/Usb/UsbMassStorageDxe/UsbMassBot.h.back
+MdeModulePkg/Bus/Usb/UsbMassStorageDxe/UsbMassImpl.c
+MdeModulePkg/Bus/Usb/UsbMassStorageDxe/UsbMassImpl.c.back
+MdePkg/Library/SmmPciExpressLib/SmmPciExpressLib.inf
+MdePkg/Library/SmmPciExpressLib/SmmPciExpressLib.inf.back
